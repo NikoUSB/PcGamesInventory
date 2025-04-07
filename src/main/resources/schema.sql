@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS PC_GAMES_ENTITY (
+    id UUID DEFAULT RANDOM_UUID() PRIMARY KEY,
+    pc_game_name VARCHAR(255) NOT NULL,
+    pc_game_year  VARCHAR(4) NOT NULL,
+    pc_game_score INTEGER NOT NULL,
+    pc_game_dev VARCHAR(255) NOT NULL
+);

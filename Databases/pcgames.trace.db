@@ -1,0 +1,4 @@
+2025-04-07 11:42:24.058933-05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "MERGE INTO PC_GAMES_ENTITY (id, pc_game_name, pc_game_year, pc_game_score, pc_game_dev)[*]"; se esperaba "KEY (, VALUES, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "MERGE INTO PC_GAMES_ENTITY (id, pc_game_name, pc_game_year, pc_game_score, pc_game_dev)[*]"; expected "KEY (, VALUES, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+MERGE INTO PC_GAMES_ENTITY (id, pc_game_name, pc_game_year, pc_game_score, pc_game_dev) [42001-232]

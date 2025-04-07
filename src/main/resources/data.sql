@@ -1,0 +1,25 @@
+MERGE INTO PC_GAMES_ENTITY (id, pc_game_name, pc_game_year, pc_game_score, pc_game_dev)
+    KEY(id)
+    VALUES
+    ('550e8400-e29b-41d4-a716-446655440000', 'Red Dead Redemption 2', '2018', 97, 'ROCKSTAR GAMES'),
+    ('550e8400-e29b-41d4-a716-446655440001', 'The Witcher 3: Wild Hunt', '2015', 93, 'CD PROJEKT RED'),
+    ('550e8400-e29b-41d4-a716-446655440002', 'Cyberpunk 2077', '2020', 86, 'CD PROJEKT RED'),
+    ('550e8400-e29b-41d4-a716-446655440003', 'DOOM Eternal', '2020', 90, 'ID SOFTWARE'),
+    ('550e8400-e29b-41d4-a716-446655440004', 'Elden Ring', '2022', 94, 'FROM SOFTWARE'),
+    ('550e8400-e29b-41d4-a716-446655440005', 'Sekiro: Shadows Die Twice', '2019', 90, 'FROM SOFTWARE'),
+    ('550e8400-e29b-41d4-a716-446655440006', 'Resident Evil 4 Remake', '2023', 92, 'CAPCOM'),
+    ('550e8400-e29b-41d4-a716-446655440007', 'Resident Evil Village', '2021', 84, 'CAPCOM'),
+    ('550e8400-e29b-41d4-a716-446655440008', 'Hogwarts Legacy', '2023', 84, 'AVALANCHE SOFTWARE'),
+    ('550e8400-e29b-41d4-a716-446655440009', 'Control', '2019', 85, 'REMEDY ENTERTAINMENT'),
+    ('550e8400-e29b-41d4-a716-446655440010', 'Alan Wake 2', '2023', 89, 'REMEDY ENTERTAINMENT'),
+    ('550e8400-e29b-41d4-a716-446655440011', 'Star Wars Jedi: Survivor', '2023', 85, 'RESPAWN ENTERTAINMENT'),
+    ('550e8400-e29b-41d4-a716-446655440012', 'Starfield', '2023', 83, 'BETHESDA GAME STUDIOS'),
+    ('550e8400-e29b-41d4-a716-446655440013', 'Forza Horizon 5', '2021', 91, 'PLAYGROUND GAMES'),
+    ('550e8400-e29b-41d4-a716-446655440014', 'Forza Motorsport', '2023', 84, 'TURN 10 STUDIOS'),
+    ('550e8400-e29b-41d4-a716-446655440015', 'A Plague Tale: Requiem', '2022', 85, 'ASOBO STUDIO'),
+    ('550e8400-e29b-41d4-a716-446655440017', 'Hades', '2020', 93, 'SUPERGIANT GAMES'),
+    ('550e8400-e29b-41d4-a716-446655440018', 'It Takes Two', '2021', 88, 'HAZE LIGHT STUDIOS'),
+    ('550e8400-e29b-41d4-a716-446655440019', 'Death Stranding', '2020', 86, 'KOJIMA PRODUCTIONS'),
+    ('550e8400-e29b-41d4-a716-446655440020', 'Divinity: Original Sin 2', '2017', 93, 'LARIAN STUDIOS');
+
+
