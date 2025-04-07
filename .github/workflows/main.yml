@@ -3,7 +3,7 @@ name: Build and Deploy Spring Boot Jar
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
