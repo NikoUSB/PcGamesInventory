@@ -1,6 +1,6 @@
 #FileLock
-#Mon Apr 07 13:41:12 COT 2025
-hostName=Rafa
-id=196118e794daf1e112b0edeb107eaef99120cdc05e0
+#Thu Apr 10 09:38:59 COT 2025
+hostName=Rafa.mshome.net
+id=1962023c5c8abfd5280237be2f735d246a4e81c83a4
 method=file
-server=192.168.36.1\:62246
+server=172.19.160.1\:59181
